@@ -1,0 +1,24 @@
+BoxLayout:
+    orientation:'vertical'
+    spacing:20
+    BoxLayout:
+        id:box_container
+        orientation:'vertical'
+        Button:
+        Button:
+        Button:
+    BoxLayout:
+        Button:
+            text:'clear all'
+            on_release: app.clear_widget()
+        Button:
+            text:"add New Widget"
+            on_release:app.add_widget()
+
+# <BoxLayout>:
+#     canvas:
+#         Color:
+#             rgba:1,0,0,1 
+#         Rectangle:
+#             pos:self.pos 
+#             size:self.size
